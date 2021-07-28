@@ -14,6 +14,11 @@ p{
 }
 
 /*utility classes*/
+.bg-primary{
+    background: #333;
+
+}
+
 .bg-light{
     background: #f4f4f4;
     color: #333;
