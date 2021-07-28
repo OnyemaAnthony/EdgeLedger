@@ -15,6 +15,13 @@ function initMap(){
     });
     const  marker = new google.maps.Marker({position:loc,map:map});
 }
+window.addEventListener('scroll',function (){
+    if(window.scrollY > 150){
+        document.querySelector('.nav').style.opacity =0.9;
+    }else{
+        document.querySelector('.nav').style.opacity = 1;
+    }
+})
 
 $('.nav a, .btn').on('click',function (event){
     if(this.hash !=''){
@@ -27,4 +34,4 @@ $('.nav a, .btn').on('click',function (event){
             800
         );
     }
-})
+});
