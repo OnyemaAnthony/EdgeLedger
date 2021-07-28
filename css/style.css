@@ -16,6 +16,7 @@ p{
 /*utility classes*/
 .bg-primary{
     background: #333;
+    color: #fff;
 
 }
 
@@ -27,9 +28,9 @@ p{
     background: #333;
     color: #fff;
 }
-.text-center{
-    text-align: center;
-}
+/*.text-center{*/
+/*    text-align: center;*/
+/*}*/
 .p-1{padding: 1.5rem}
 .p-2{padding: 1.5rem}
 .p-3{padding: 1.5rem}
