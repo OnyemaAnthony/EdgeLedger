@@ -14,6 +14,29 @@ p{
 }
 
 /*utility classes*/
+.text-center{
+    text-align: center;
+}
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.py-1{
+    padding: 1.5rem 0;
+}
+.py-2{
+    padding: 2rem 0;
+}
+.py-3{
+    padding: 3rem 0;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
 .l-heading{
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -84,5 +107,25 @@ nav ul li a:hover{
     position: absolute;
     top: 60px;
     left: 0;
+    right: 0;
+    bottom: 0;
     background-color: rgba(0,0,0,0.4);
+}
+
+/*Section: what we do*/
+.what .items{
+    display: flex;
+    padding: 1rem;
+}
+.what .items .item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+
+}
+.what .items .item i{
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+
 }
